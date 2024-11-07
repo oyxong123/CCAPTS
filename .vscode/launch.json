@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Wails Debug with delve",
+        "type": "go",
+        "request": "attach",
+        "mode": "remote",
+        "preLaunchTask": "dlv-server",
+        "remotePath": "${workspaceFolder}",
+        "port": 2345, // here goes the port you defined in the debug.py script
+        "host": "127.0.0.1"
+      }
+    ]
+  }

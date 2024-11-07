@@ -1,0 +1,657 @@
+.logo--l {
+    display: block;
+    width: 100px;
+    height: 124px;
+    margin: auto;
+    padding: 10% 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
+
+.logo--s {
+    display: block;
+    width: 75px;
+    height: 93px;
+    margin: auto;
+    padding: 3% 0 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: .8rem;
+}
+
+.logout:hover {
+    text-decoration: underline;
+    color: oklab(0.700834 -0.0780351 -0.1469);
+    cursor: pointer;
+}
+
+.return {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: .8rem;
+}
+
+.return:hover {
+    text-decoration: underline;
+    color: oklab(0.700834 -0.0780351 -0.1469);
+    cursor: pointer;
+}
+
+.login {
+    height: 20px;
+    width: 500px;
+    line-height: 40px;
+    margin: 1.5rem auto;;
+}
+
+.login .btn {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 10px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.login .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.login .error {
+    color: red;
+    font-size: x-small;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 45vw;
+    bottom: 31.5vh;
+    display: none;
+}
+
+.login .loading {
+    color: green;
+    font-size: x-small;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 48.5vw;
+    bottom: 31.5vh;
+    display: none;
+}
+
+.login .input-area {
+    width: 400px;
+    text-align: right;
+}
+
+.login .input-area .input-box .attribute {
+    display: inline;
+    text-align: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+    padding: 0 8px;
+}
+
+.login .input-area .input-box .input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.login .input-area .input-box .input:hover {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.login .input-area .input-box .input:focus {
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.login .choice-area {
+    margin: 20px 0;
+}
+
+.login .choice-area .btn {
+    width: 150px;
+}
+
+.login .choice-area .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.login .choice-area .resetPw {
+    font-size: x-small;
+    cursor: pointer;
+    margin: 0;
+}
+
+.login .choice-area .resetPw:hover {
+    text-decoration: underline;
+    color: oklab(0.700834 -0.0780351 -0.1469);
+}
+
+.home {
+    padding: 25px;
+}
+
+.home .btn {
+    width: 150px;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 25px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.home .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.home #btnRegister, #btnDashboard, #btnSettings {
+    display: none;
+}
+
+.register {
+    margin: 35px 0;
+}
+
+.register .input-area {
+    width: 75vw;
+    display: grid;
+    gap: 10px 0;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: 100px;
+}
+
+.register .input-area .input-box {
+    text-align: end;
+}
+
+.register .input-area .input-box .attribute {
+    display: inline;
+    text-align: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0 5px 0 20px;
+    font-size: small;
+}
+
+.register .input-area .input-box .input--xs {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 20px;
+    width: 200px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.register .input-area .input-box .input--s {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 20px;
+    width: 250px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.register .input-area .input-box .input--l {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 20px;
+    width: 280px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.register .choice-area {
+    padding: 25px 0; 
+}
+
+.register .choice-area .btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 25px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.register .choice-area .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.search {
+    margin: 35px 0;
+}
+
+.search .input-area {
+    display: grid;
+    gap: 10px 0;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    right: 30px;
+}
+
+.search .choice-area {
+    margin: 20px 0;
+}
+
+.search .choice-area .btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 25px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.search .choice-area .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.search .input-area .input-box {
+    text-align: end;
+}
+
+.search .input-area .input-box .attribute {
+    display: inline;
+    text-align: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0 5px 0 20px;
+    font-size: small;
+}
+
+.search .input-area .input-box .input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 20px;
+    width: 200px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.searchResult {
+    padding: 0 51px;
+}
+
+.searchResult .resultTable {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.searchResult .resultTable table {
+    border: 1px solid;
+    width: 90vw;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+}
+
+.searchResult .resultTable th {
+    border: 1px solid;
+    text-align: center;
+    background-color: salmon;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.searchResult .resultTable td {
+    border: 1px solid;
+    text-align: start;
+    padding: 2px 4px;
+    vertical-align: top;
+}
+
+/* 
+.searchResult .resultTable tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+} */
+
+.searchResult .resultTable thead {
+    font-size: .8rem;
+}
+
+.searchResult .resultTable tbody {
+    font-size: .75rem;
+}
+
+.searchResult .resultTable tbody tr:hover {
+    background-color: rgb(255, 191, 184);
+}
+
+.searchResult .resultTable .selected {
+    background-color: rgb(255, 191, 184);
+}
+
+.searchResult .choice-area .btn {
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 25px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.searchResult .choice-area .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.details .titleArea {
+    margin-top: 40px;
+}
+
+.details .title {
+    display: inline-block;
+    margin: 0;
+}
+
+.details .editBtn {
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    padding: 0px;
+    margin: 1px 0 0 12px;
+}
+
+.details .editIcon {
+    height: 10px;
+    width: 10px;
+}
+
+.details textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;       
+    resize: none;
+    position: relative;
+    top: 5px;
+}
+
+.details .field {
+    display: flex;
+    justify-content: end;
+}
+
+.details .field .attribute {
+    display: inline;
+    text-align: right;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0 10px 0 0px;
+    font-size: small;
+}
+
+.details .section--2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+    position: relative;
+    left: 100px;
+    width: 800px;
+}
+
+.details .section--3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+    position: relative;
+    left: 30px;
+    width: 1000px;
+}
+
+.details .input--1 {
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    height: 20px;
+    width: 180px;
+    line-height: 18px;
+    padding: 2px 10px 0;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.details .input--2 {
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    height: 40px;
+    width: 180px;
+    line-height: 18px;
+    padding: 2px 10px 0;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.details .input--3 {
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    height: 60px;
+    width: 180px;
+    line-height: 18px;
+    padding: 2px 10px 0;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.details .input--4 {
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    height: 80px;
+    width: 180px;
+    line-height: 18px;
+    padding: 2px 10px 0;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.details .input--f {
+    border: none;
+    border-radius: 3px;
+    outline: none; 
+    height: 150px;
+    width: 80vw;
+    line-height: 22px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+    overflow: auto;
+}
+
+.details hr {
+    display: block;
+    margin: 1rem auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 85vw;
+}
+
+.dashboard {
+    margin: 80px 0;
+}
+
+.dashboard .widget {
+    margin: 3px;
+}
+
+.dashboard .rArrow {
+    position: fixed;
+    right: 30px;
+    top: 350px;
+    font-size: 2.5rem;
+}
+
+.dashboard .rArrow:hover {
+    cursor: pointer;    
+    color: #cfd9df;
+}
+
+.dashboard .lArrow {
+    position: fixed;
+    left: 30px;
+    top: 350px;
+    font-size: 2.5rem;
+}
+
+.dashboard .lArrow:hover {
+    cursor: pointer;    
+    color: #cfd9df;
+}
+
+.dashboard p {
+    user-select: none;
+}
+
+.dashboard #page1, #page2, #page3 {
+    user-select: none;
+}
+
+.settings {
+    padding: 25px;
+}
+
+.settings .btn {
+    width: 150px;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 25px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.settings .btn:hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.adjustTarget {
+    margin: 35px 0;
+}
+
+.adjustTarget .input-area {
+    display: grid;
+    width: 70vw;
+    gap: 10px 0;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 120px;
+}
+
+.adjustTarget .choice-area {
+    margin: 40px 0;
+}
+
+.adjustTarget .choice-area .btn {
+    width: 80px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 25px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.adjustTarget .choice-area .btn:not(:disabled):hover {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: #333333;
+}
+
+.adjustTarget .input-area .input-box {
+    text-align: end;
+}
+
+.adjustTarget .input-area .input-box .attribute {
+    display: inline;
+    text-align: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0 5px 0 20px;
+    font-size: small;
+}
+
+.adjustTarget .input-area .input-box .input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    height: 20px;
+    width: 40px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-font-smoothing: antialiased;
+}
+
+.adjustTarget input::-webkit-outer-spin-button,
+.adjustTarget input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
